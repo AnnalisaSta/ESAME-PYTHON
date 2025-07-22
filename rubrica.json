@@ -30,5 +30,13 @@
         "et\u00e0": 54,
         "sesso": "F",
         "mail": "madoka_sax@asahi_net.jp"
+    },
+    "Super Sneki": {
+        "giorno": 12,
+        "mese": "maggio",
+        "anno": 1995,
+        "et\u00e0": 29,
+        "sesso": "F",
+        "mail": "lucia.rossi@example.com"
     }
 }
