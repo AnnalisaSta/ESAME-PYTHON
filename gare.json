@@ -1,0 +1,127 @@
+{
+    "06/05/2023": [
+        {
+            "tempo": "11.18",
+            "luogo": "Pordenone"
+        }
+        
+    ],
+    "02/06/2023": [
+        {
+            "tempo": "11.20",
+            "luogo": "Verona"
+        }
+    ],
+    "04/06/2023": [
+        {
+            "tempo": "11.39",
+            "luogo": "Trieste"
+        }
+    ],
+    "14/06/2023": [
+        {
+            "tempo": "11.25",
+            "luogo": "San Vendemiano"
+        }
+    ],
+    "24/06/2023": [
+        {
+            "tempo": "11.36",
+            "luogo": "Trieste"
+        },
+        {
+            "tempo": "11.07",
+            "luogo": "Trieste"
+        }
+    ],
+    "01/07/2023": [
+        {
+            "tempo": "11.14",
+            "luogo": "Feltre"
+        },
+        {
+            "tempo": "11.13",
+            "luogo": "Feltre"
+        }
+    ],
+    "13/07/2023": [
+        {
+            "tempo": "11.08",
+            "luogo": "Montebelluna"
+        },
+        {
+            "tempo": "11.24",
+            "luogo": "Montebelluna"
+        }
+    ],
+    "15/07/2023": [
+        {
+            "tempo": "11.22",
+            "luogo": "Brugnera"
+        }
+    ],
+    "22/07/2023": [
+        {
+            "tempo": "11.18",
+            "luogo": "Trieste"
+        }
+    ],
+    "16/09/2023": [
+        {
+            "tempo": "11.62",
+            "luogo": "Udine"
+        }
+    ],
+    "05/05/2024": [
+        {
+            "tempo": "10.93",
+            "luogo": "Maribor"
+        }
+    ],
+    "11/05/2024": [
+        {
+            "tempo": "10.91",
+            "luogo": "Pordenone"
+        }
+    ],
+    "25/05/2024": [
+        {
+            "tempo": "10.91",
+            "luogo": "Maribor"
+        },
+        {
+            "tempo": "10.87",
+            "luogo": "Maribor"
+        }
+    ],
+    "23/07/2025": [
+        {
+            "tempo": "10.88",
+            "luogo": "Pordenone"
+        },
+        {
+            "tempo": "10.88",
+            "luogo": "Pordenone"
+        },
+        {
+            "tempo": "10.88",
+            "luogo": "Pordenone"
+        }
+    ],
+    "12/06/2025": [
+        {
+            "tempo": "10.99",
+            "luogo": "Trieste"
+        },
+        {
+            "tempo": "10.98",
+            "luogo": "Trieste"
+        }
+    ],
+    "14/07/2025": [
+        {
+            "tempo": "10:90",
+            "luogo": "trieste"
+        }
+    ]
+}
