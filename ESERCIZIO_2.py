@@ -56,12 +56,12 @@ print('Numero di caratteri:', x)
 lista_parole = testo.split() #divide il testo in parole
 lista_nuova = []
 for parola in lista_parole:
-    parola = parola.strip(',.;:!') #esclude i caratteri speciali
+    parola = parola.strip(',.;:!')
     parola = parola.lower()
-    if parola != 'day' and parola != 'water' and parola != 'about': #se la parola non è una di queste
-        lista_nuova.append(parola) #si riscrive la parola nella nuova lista
+    if parola != 'day' and parola != 'water' and parola != 'about':
+        lista_nuova.append(parola)
     else:
-        lista_nuova.append('PYTHON') #altrimenti si aggiunge la parola PYTHON
+        lista_nuova.append('PYTHON')
 print(lista_nuova)
 
 #richiesta 5: riscrivete il testo con tutte le parole in posizione dispari scritte in maiuscolo
