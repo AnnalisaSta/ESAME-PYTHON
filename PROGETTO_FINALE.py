@@ -9,7 +9,6 @@
 #
 # Description: chiede una data e stampa i tempi fatti e il luogo salvati in un file json
 #
-#
 
 import json
 
@@ -17,7 +16,7 @@ class RisultatiGare:
     def __init__(self, dati: dict):
         self.dati = dati
         self.risultati_aperti = True #assegna il valore boolenao all'attributo
-    
+
     @classmethod
     def apri_da_json(cls, filename):
         try:
@@ -76,16 +75,16 @@ class RisultatiGare:
 def main():
     gare = RisultatiGare.apri_da_json('gare.json')
 
-    data_f = input("Inserire una data (es. 24/06/2023) o 'esci' per terminare: ").strip().lower()
+    data_f = input("Inserire una data (es. 24/06/2023) o 'esci' per terminare: ").lower()
     gare.stampa(data_f)
 
 
     filename = "gare.json"
     gare = RisultatiGare.apri_da_json(filename)
-
-    print("---Aggiungi nuovo risultato gara---".upper())
+   
+    print("---Aggiungi nuovo risultato gara---".upper(), "per uscire premere Ctrl+C" )
     data = input("Inserisci la data (gg/mm/aaaa): ")
-    tempo = input("Inserisci il tempo (es. 11.23): ")
+    tempo = input("Inserisci il tempo (11.23): ")
     luogo = input("Inserisci il luogo: ")
 
     gare.aggiungi(data, tempo, luogo)
@@ -93,9 +92,7 @@ def main():
 
     print("Risultato aggiunto con successo!")
 
-
-if __name__ == "__main__":
-    main()
+main()
 
 
 
