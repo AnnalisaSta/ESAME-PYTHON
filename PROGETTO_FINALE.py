@@ -1,5 +1,5 @@
 #
-# File: prova_RisultatiGare.py
+# File: PROGETTO_FINALE.py
 #
 # Author: A. Stantic
 #
@@ -10,8 +10,6 @@
 # Description: chiede una data e stampa i tempi fatti e il luogo salvati in un file json
 #
 #
-#import matplotlib.pyplot as plt
-#import numpy as np
 
 import json
 
@@ -19,7 +17,7 @@ class RisultatiGare:
     def __init__(self, dati: dict):
         self.dati = dati
         self.risultati_aperti = True #assegna il valore boolenao all'attributo
-
+    
     @classmethod
     def apri_da_json(cls, filename):
         try:
@@ -72,6 +70,8 @@ class RisultatiGare:
         del self.dati[data]
         print(f"Risultati del {data} rimossi con successo")
 
+
+
 #permette di modificare le gare
 def main():
     gare = RisultatiGare.apri_da_json('gare.json')
@@ -98,27 +98,5 @@ if __name__ == "__main__":
     main()
 
 
-#grafico
-"""date_labels = []
-tempi = []
-
-for data_str, lista_gare in gare.dati.items():
-    for gara in lista_gare:
-        date_labels.append(data_str)
-        tempi.append(float(gara["tempo"]))
-
-y = np.array(tempi)
-x = np.arange(len(y)) 
-
-# Plot
-plt.figure(figsize=(12, 6))
-plt.plot(x, y, marker='.', linestyle='-', color='black')
-plt.xticks(ticks=x, labels=date_labels, rotation=45, ha='right')
-plt.xlabel("DATA")
-plt.ylabel("TEMPO (secondi)")
-plt.title("GRAFICO DEI RISULTATI")
-plt.grid(axis='y')
-plt.tight_layout()
-plt.show()"""
 
 
